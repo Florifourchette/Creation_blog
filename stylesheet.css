@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Gomawo';
+    src: url("gomawo-font/Gomawo/Gomawo.ttf") format('truetype'),
+        url('gomawo-font/Gomawo/Gomawo.woff') format('woff'),
+        url('gomawo-font/Gomawo/Gomawo.woff2') format('woff2'),
+        url('gomawo-font/Gomawo/Gomawo.eot') format('eot');
+}
+@font-face {
+    font-family: "Dancing_Style";
+    src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #595858;
+    background-color: antiquewhite;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #5909B3;
+}
+
+a:hover{
+    color:#BD8AF6;
+}
+
+a:active{
+    color:#BD8AF6;
+}
+
+button{
+    background-color: #939096;
+    border: 1px #595858;
+    border-radius: 20px;
+    font-family: "Dancing_Style";
+    color: white;
+    font-size: 1.3em;
+    padding: 3%;
+    box-shadow: #595858 2px;
+}
+
+button:hover{
+    background-color: #BD8AF6;
+    color: #5909B3;
+}
+
+.wraper{
+    font-family: Gomawo;
+    color: #5909B3;
+    font-size:2em;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    border-radius: 20px;
+    padding: 2vh;
+}
+
+header span{
+    font-family: Dancing_Style;
+    font-size: 1.5em;
+}
+
+.hero{
+    margin: auto;
+    height:300px;
+    background-image: url(images/Hero_banner.jpg);
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+article h2{
+    color: #5909B3;
+    font-family: Dancing_Style;
+}
+
+article span{
+    font-family: Dancing_Style;
+}
+
+content{
+    display: inline-flex;
+}
+
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+    width:70%;
+}
+
+aside{
+    background-color: rgb(255,255,255);
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 50px;
+    height:80%;
+    
+}
+
+aside h3{
+    font-family: Dancing_Style;
+    color: #5909B3;
+    font-size: 1.5em;
+}
+
+aside section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.bio{
+    padding-top: 30%;
+}
+
+
+footer{
+    margin-top: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.7em;
+
+}
