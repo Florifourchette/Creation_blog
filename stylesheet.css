@@ -45,9 +45,10 @@ button{
     border-radius: 20px;
     font-family: "Dancing_Style";
     color: white;
-    font-size: 1.3em;
-    padding: 3%;
+    font-size: 1em;
     box-shadow: #595858 2px;
+    width: 15%;
+    padding:3px;
 }
 
 button:hover{
